@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+
+  <default revision="master" remote="github" />
+
+  <project path="external/libunwind" name="libunwind/libunwind" groups="platform"
+           remote="github" revision="refs/tags/v1.3.1" />
+</manifest>
